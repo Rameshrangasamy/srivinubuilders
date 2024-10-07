@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vinu.css">
+    <style>      
+      .navbar-nav .nav-link {
+        color: #918880; 
+        text-decoration: none;
+      }   
+      .navbar-nav .nav-link.active {
+        color:#e2380d !important;
+      }          
+    </style>    
+</head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#fdfeff; border-color:#918880; border-width:2px;border-style:solid; border-bottom-right-radius:10px; border-bottom-left-radius:10px;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+          <img src="images\IMG-20240930-WA0001.jpg" class="ecommerce-logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto mt-1">
+            <a class="nav-link active" href="#" id="navItem1">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#wcuSection" id="navItem2">About</a>
+            <a class="nav-link" href="#exploreMenuSection" id="navItem3">Projects</a>
+            <a class="nav-link" href="#followUsSection" id="navItem4">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div>     
+        <div id="carouselExampleIndicators" class="carousel slide ecommerce-carousel-container" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="carousel-item active responsive-image">
+                  <img src="images\novila-misastra-unsplash.jpg" class="d-block w-100 responsive-image" alt="...">
+              </div>
+              <div class="carousel-item responsive-image">
+                  <img src="images\randy-unsplash.jpg" class="d-block w-100 responsive-image" alt="...">
+              </div>
+              <div class="carousel-item responsive-image">
+                  <img src="images\scott-webb-unsplash.jpg" class="d-block w-100 responsive-image" alt="...">
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel ExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+        </div> 
+                      
+        <div class="wcu-section pt-5 pb-5" id="wcuSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="wcu-section-heading mb-4">WHY CHOOSE US</h1>
+                <p class="wcu-section-description mb-4">
+                  At <span class="offers">Sri Vinu Builders,</span> we understand that building your dream home or commercial space is a significant investment. That's why we focus on delivering quality, reliability, and transparency in every project.
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 14.59.40 - A team of experienced architects, engineers, and builders standing together at a construction site with blueprints and safety helmets. In the backgrou.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Experienced Team</h1>
+                  <p class="wcu-card-description">
+                    With over 15 years of experience, our skilled team of architects, engineers, and builders has successfully completed hundreds of residential and commercial projects. We bring industry knowledge and craftsmanship to every project, no matter the size.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.08.41 - A close-up view of high-quality construction materials on a building site. Display a variety of materials such as premium bricks, wooden beams, steel .webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">High-Quality Materials</h1>
+                  <p class="wcu-card-description">
+                    We source only the finest materials, ensuring that your building stands the test of time. Our partnerships with leading suppliers allow us to maintain a high standard of quality while keeping your project cost-efficient.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.10.56 -.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Tailored Solutions</h1>
+                  <p class="wcu-card-description">
+                    Every client has unique needs, which is why we offer customized solutions for each project. From initial design to completion, we work closely with you to ensure that your vision becomes a reality, whether it’s a luxury home or a modern office space.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.25.50 -.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">On-Time, On-Budget Delivery</h1>
+                  <p class="wcu-card-description">
+                    We understand the importance of sticking to deadlines and budgets. Our project management approach ensures that we deliver on time and within the agreed-upon cost, without compromising quality or cutting corners.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.22.23 -.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Sustainability Focus</h1>
+                  <p class="wcu-card-description">
+                    We are committed to building with the future in mind. Our expertise in sustainable construction practices means we can help you create an eco-friendly building that reduces environmental impact, enhances energy efficiency.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Comprehensive Services</h1>
+                  <p class="wcu-card-description">
+                    From site planning and architectural design to construction management and post-construction support, we offer a complete range of services to handle every aspect of your project, single point of contact entire process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <h1 class="menu-section-heading">PROJECTS</h1>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="follow-us-section-heading">FOLLOW US</h1>
+              </div>
+              <div class="col-12 mt-4">
+                <div class="d-flex flex-row justify-content-center">
+                  <a href="https://x.com/" target="_blank">
+                    <div class="follow-us-icon-container">
+                      <i class="fab fa-twitter icon"></i>
+                    </div>
+                  </a>
+                  <a href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530338610&extra_1=s%7Cc%7C547419127622%7Ce%7Cinstagram%20%27%7C&placement=&creative=547419127622&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13530338610%26adgroupid%3D126262414014%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D9154730%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=Cj0KCQjwjY64BhCaARIsAIfc7Yb2jzLGn1Ij7pDT4-K6ViYB3SpF1T_ul2TFjTEpHF23LU8sfgZT_YsaAsJoEALw_wcB" target="_blank">
+                    <div class="follow-us-icon-container">
+                      <i class="fab fa-instagram icon"></i>
+                    </div>
+                  </a>
+                  <a href="https://www.facebook.com/login/" target="_blank">
+                    <div class="follow-us-icon-container">
+                      <i class="fab fa-facebook icon"></i>
+                    </div>
+                  </a>                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-section pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h1 class="footer-heading">Sri Vinu Builders</h1>
+                <h1 class="footer-section-mail-id">srivinubuilders@gmail.com</h1>
+                <p class="footer-section-address">
+                  74/5, AMS Complex, <br/>
+                  SBI(Opp), 1st Floor, Sathy Road, <br/>
+                  Annur - 641 653. Coimbatore.
+                </p>                
+              </div>
+            </div>
+          </div>
+        </div>
+                   
+      </div>
+      <script>
+          // JavaScript to change the active link color
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+              // Remove active class from all links
+              document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+        
+              // Add active class to the clicked link
+              this.classList.add('active');
+            });
+          });
+        </script>  
+    </body>
+</html>
